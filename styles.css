@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body{
+    background-color: rgb(161,100,223);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+	background-color:white;
+}
+.active{
+	background-color:lightgray
+}
+.input,.btn{
+	background-color:transparent;
+	border:none;
+	padding:10px;
+	outline:none;
+}
+.btn:hover{
+	cursor:pointer;
+}
